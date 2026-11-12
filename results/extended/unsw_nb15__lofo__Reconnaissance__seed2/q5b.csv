@@ -1,0 +1,7 @@
+input,detector,evaded attacks caught by 2nd stage,same attacks before evasion,benign flows flagged
+raw,ae_small,0.14285714285714285,0.14285714285714285,0.018972972972972974
+raw,iforest,0.0,0.0,0.026324324324324324
+shap,ae_small,0.42857142857142855,0.0,0.02435135135135135
+shap,iforest,0.0,0.0,0.036
+concat,ae_small,0.14285714285714285,0.0,0.03991891891891892
+concat,iforest,0.0,0.0,0.0365945945945946

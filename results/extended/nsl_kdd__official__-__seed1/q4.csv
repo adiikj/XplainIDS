@@ -1,0 +1,2 @@
+flows analysed,"score drop, top-5 abnormal feats","score drop, random 5 feats","stability (top-5 overlap, 2 seeds)",sparsity (error share in top-5)
+500,0.37767252,0.052037332,0.7676000000000002,0.4958179

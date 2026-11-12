@@ -1,0 +1,8 @@
+component,cost
+"TreeSHAP, all feat (ms/flow, 8 workers)",1.0887923005392073
+"TreeSHAP, top-10 feat (ms/flow, 8 workers)",1.0339831306106533
+"LIME (ms/flow, 1 core)",39.67994928359985
+ae_small fit (s),26.892597198486328
+ae_small score (ms/flow),0.0009009153880108343
+iforest fit (s),1.1254279613494873
+iforest score (ms/flow),0.006222999438202567

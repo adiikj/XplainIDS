@@ -1,0 +1,7 @@
+feature,times in top-5
+sinpkt,40
+ct_dst_sport_ltm,40
+proto,36
+sttl,36
+dtcpb,23
+sjit,19
