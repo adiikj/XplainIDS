@@ -1,0 +1,7 @@
+feature,times in top-5
+dst_host_rerror_rate,267
+diff_srv_rate,212
+src_bytes,211
+srv_rerror_rate,209
+srv_serror_rate,185
+service,175
