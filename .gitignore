@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+*.log
+
+# secrets
+.env
+
+# caches, fitted models, scratch outputs
+cache/
+*.pkl
+results/quick.csv
+results/repro.csv
+results/grid/grid_quick.csv
+
+# later stages
+data/cicids2017/
+*.sqlite
+*.db
+node_modules/
+
+# datasets: download them yourself (data/README.md)
+data/**
+!data/README.md
+
+# paper drafts stay private until submission
+paper/

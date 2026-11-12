@@ -1,0 +1,15 @@
+# Versions the pilot was run with (CONTEXT.md §6) are pinned; the rest only need to be recent.
+# Install:  uv venv --python 3.11 .venv
+#           uv pip install --python .venv\Scripts\python.exe -r requirements.txt      (Windows)
+#           uv pip install --python .venv/bin/python -r requirements.txt              (Linux)
+xgboost==3.2.*
+shap==0.51.*
+scikit-learn==1.9.*
+torch==2.14.*
+numpy
+pandas
+scipy
+matplotlib
+lime
+tabulate
+pytest
