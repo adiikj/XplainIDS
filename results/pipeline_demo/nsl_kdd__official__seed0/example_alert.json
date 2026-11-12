@@ -1,0 +1,94 @@
+{
+  "novel": {
+    "alert_id": "nsl_kdd__official__seed0-test7634",
+    "alert_type": "NOVEL",
+    "p": 0.002307,
+    "t1": 0.007225,
+    "s": 0.083745,
+    "t2": 0.069024,
+    "evidence": [
+      {
+        "name": "duration",
+        "raw_value": 41,
+        "phi": 0.0281,
+        "phi_hat": -0.0005,
+        "deviation": 0.0286,
+        "direction": "contributes more than in normal-looking flows"
+      },
+      {
+        "name": "num_failed_logins",
+        "raw_value": 2,
+        "phi": 0.0218,
+        "phi_hat": 0.0,
+        "deviation": 0.0218,
+        "direction": "contributes more than in normal-looking flows"
+      },
+      {
+        "name": "dst_host_count",
+        "raw_value": 156,
+        "phi": -0.023,
+        "phi_hat": -0.0094,
+        "deviation": -0.0136,
+        "direction": "contributes less than in normal-looking flows"
+      },
+      {
+        "name": "service",
+        "raw_value": "telnet",
+        "phi": -0.0284,
+        "phi_hat": -0.0407,
+        "deviation": 0.0123,
+        "direction": "contributes more than in normal-looking flows"
+      },
+      {
+        "name": "dst_host_srv_count",
+        "raw_value": 22,
+        "phi": -0.0088,
+        "phi_hat": 0.0019,
+        "deviation": -0.0107,
+        "direction": "contributes less than in normal-looking flows"
+      }
+    ],
+    "consistency_flag": null,
+    "ground_truth": {
+      "label": "attack",
+      "family": "R2L",
+      "attack_type": "xlock",
+      "zero_day": true
+    }
+  },
+  "known": {
+    "alert_id": "nsl_kdd__official__seed0-test6847",
+    "alert_type": "KNOWN",
+    "p": 0.999718,
+    "t1": 0.007225,
+    "s": 0.273765,
+    "t2": 0.069024,
+    "evidence": [
+      {
+        "name": "src_bytes",
+        "raw_value": 54540,
+        "phi": 0.2141,
+        "direction": "towards attack"
+      },
+      {
+        "name": "hot",
+        "raw_value": 2,
+        "phi": 0.1476,
+        "direction": "towards attack"
+      },
+      {
+        "name": "dst_host_rerror_rate",
+        "raw_value": 0.01,
+        "phi": 0.0486,
+        "direction": "towards attack"
+      }
+    ],
+    "consistency_flag": null,
+    "ground_truth": {
+      "label": "attack",
+      "family": "DoS",
+      "attack_type": "back",
+      "zero_day": false
+    }
+  }
+}

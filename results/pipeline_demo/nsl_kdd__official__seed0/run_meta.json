@@ -1,0 +1,33 @@
+{
+  "split": "nsl_kdd/official",
+  "seed": 0,
+  "budget": 0.02,
+  "share": 0.5,
+  "detector": "ae_small",
+  "input": "shap",
+  "thresholds_from": "benign validation subsample only",
+  "fit": {
+    "n_train": 100778,
+    "n_fit": 26774,
+    "n_val_benign": 10657,
+    "split": "nsl_kdd/official",
+    "t1": 0.007224950939416885,
+    "t2": 0.06902360171079636,
+    "val_fpr": 0.019986863094679553,
+    "val_fpr_stage1": 0.00994651402833818,
+    "val_fpr_stage2": 0.010040349066341372
+  },
+  "test_rows": 22544,
+  "t_fit_s": 148.5,
+  "t_score_ms_per_flow": 1.738,
+  "versions": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "sklearn": "1.9.1",
+    "xgboost": "3.2.0",
+    "shap": "0.51.0",
+    "torch": "2.14.1+cpu"
+  }
+}
